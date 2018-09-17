@@ -119,7 +119,7 @@ header {
 
 /* top ================================ */
 .top-main {
-  padding: 200px 0 100px;
+  padding: 50px 0 100px;
   text-align: center;
   position: absolute;
   top: 0;
@@ -127,18 +127,13 @@ header {
   height: auto;
   min-height: 100%;
   color: white;
-  background-color: #3ecdc6;
-  background-repeat: no-repeat;
-  background-position: center 50%;
-  background-size: cover;
-  background-image: url("/top.jpg");
 }
 
 .top-message {
   position: relative;
 }
 
-.top-main h2 {
+.top-main h1 {
   font-size: 70px;
   font-weight: 500;
   line-height: 1.3;
@@ -150,13 +145,13 @@ header {
   font-size: 24px;
 }
 
-/* about ================================ */
-.about-main {
-  padding: 180px 8% 0;
+/* tokushima ================================ */
+.tokushima-main {
+  padding: 70px 0 100px;
   color: white;
 }
 
-.about-main h2 {
+/*.about-main h2 {
   font-size: 64px;
   font-weight: 500;
   line-height: 1.4;
@@ -167,9 +162,13 @@ header {
   font-size: 20px;
 }
 
-.about-img {
-  width: 84%;
+
+/* users ================================ */
+.users-main {
+  padding: 10px 0 100px;
+  color: white;
 }
+
 
 /* フォーム================================ */
 .form {

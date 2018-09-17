@@ -1,22 +1,27 @@
-<h1>Routes88</h1>
+<div class="top-main">
+  
+  <h1>Routes88とは</h1>
+  <p>お遍路をまわる人のための情報サイトです</p>
+  <p>近況や情報を投稿し他のお遍路さんとコミュニケーションできます</p>
+  <p>個人画面では進捗状況を管理したり日記がつけれます</p>
+  
+  <div id="map"></div>
+    <style type="text/css">
+      #map {
+        height:400px;
+      }
+    </style>
+    <script type="text/javascript">
+          L.Icon.Default.imagePath = "/assets";
+          var map = L.map('map').setView([33, 133],17);
+          var osmUrl = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+          var osmAttrib = "Map data OpenstreetMap contributors";
+          L.tileLayer(osmUrl,{
+            attribution: osmAttrib,
+            maxZoom: 20,
+          }).addTo(map);
 
-<div id="map"></div>
-  <style type="text/css">
-    #map {
-      height:400px;
-    }
-  </style>
-  <script type="text/javascript">
-        L.Icon.Default.imagePath = "/assets";
-        var map = L.map('map').setView([33, 133],17);
-        var osmUrl = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
-        var osmAttrib = "Map data OpenstreetMap contributors";
-        L.tileLayer(osmUrl,{
-          attribution: osmAttrib,
-          maxZoom: 20,
-        }).addTo(map);
-
-  </script>
+    </script>
 
   <ul class="prefecture">
     <li>
@@ -24,8 +29,10 @@
     </li>
   </ul>
 
-<li>高知県</li>
-<li>愛媛県</li>
-<li>香川県</li>
+  <li>高知県</li>
+  <li>愛媛県</li>
+  <li>香川県</li>
 
-<p>情報交換・１行コメント的なもの</p>
+  <p>情報交換・１行コメント的なもの</p>
+
+</div>
