@@ -1,4 +1,4 @@
-<h1>Routes88</h1>
+<h1>徳島県</h1>
 
 <div id="map"></div>
   <style type="text/css">
@@ -8,7 +8,7 @@
   </style>
   <script type="text/javascript">
         L.Icon.Default.imagePath = "/assets";
-        var map = L.map('map').setView([33, 133],17);
+        var map = L.map('map').setView([34, 134],17);
         var osmUrl = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
         var osmAttrib = "Map data OpenstreetMap contributors";
         L.tileLayer(osmUrl,{
@@ -18,14 +18,11 @@
 
   </script>
 
-  <ul class="prefecture">
-    <li>
-      <%= link_to("徳島県", "/tokushima/index")  %>
-    </li>
-  </ul>
+<p>天気（Openweathermap）</p>
+<p>寺ポイント</p>
+<p>バス停・駅・空港→選んだら時刻表表示（予約連動）</p>
+<p>道の駅・温泉・スーパー・コンビニ</p>
 
-<li>高知県</li>
-<li>愛媛県</li>
-<li>香川県</li>
+<p>モデルルート</p>
 
-<p>情報交換・１行コメント的なもの</p>
+<p>寺名→選んだら寺の説明・周辺の名産、観光、グルメ、ホテル（予約連動）、イベント、お祭り</p>

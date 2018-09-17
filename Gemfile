@@ -64,3 +64,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'leaflet-rails'
 
 gem 'devise'
+
+gem 'weather_jp'
+
+gem 'fullcalendar-rails' 
+
+gem 'momentjs-rails'
+
+gem 'jquery-rails'
